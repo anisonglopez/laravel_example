@@ -17,7 +17,7 @@
                   </div>
                 </div>
             @endif
-            <button wire:click="create()" class="bg-red-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded my-3">Create New Post</button>
+            <button wire:click="create()" class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded my-3">Create New Post</button>
             @if($isOpen)
                 @include('livewire.create')
             @endif
